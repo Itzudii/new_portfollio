@@ -432,6 +432,9 @@ async function main() {
 
   const book = new Book();
   await book.init();
+  const loader = document.querySelector('#loader');
+  loader.style.display = 'none';
+  document.body.classList.remove('noyscroll');
 
 
   function run() {
@@ -455,4 +458,5 @@ async function main() {
 }
 
 // document.addEventListener("DOMContentLoaded", main);
+
 window.addEventListener("load", main)
