@@ -112,9 +112,9 @@ async function addachivement() {
 
 import { Achievement } from "./JS/achievement.js";
 async function main() {
-    const loader = document.querySelector('#loader');
-    loader.style.display = 'none';
-    document.body.classList.remove('noyscroll');
+    // const loader = document.querySelector('#loader');
+    // loader.style.display = 'none';
+    // document.body.classList.remove('noyscroll');
     await addCerticates();
     imgmodelbehaviour();
     await addprojects();
@@ -127,4 +127,5 @@ async function main() {
 
 }
 // document.addEventListener("DOMContentLoaded", main)
+
 window.addEventListener("load", main)
