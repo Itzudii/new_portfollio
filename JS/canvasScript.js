@@ -435,6 +435,7 @@ async function main() {
   const loader = document.querySelector('#loader');
   loader.style.display = 'none';
   document.body.classList.remove('noyscroll');
+  console.log("loader remove");
 
 
   function run() {
@@ -460,3 +461,4 @@ async function main() {
 // document.addEventListener("DOMContentLoaded", main);
 
 window.addEventListener("load", main)
+
