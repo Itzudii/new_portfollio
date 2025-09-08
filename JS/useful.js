@@ -33,7 +33,7 @@ export function randomInt(min, max) {
   
 }
 export function randomChoice(array) {
-        return array[randomInt(0,array.length)]
+        return array[randomInt(0,array.length-1)]
 
     }
 
@@ -64,3 +64,4 @@ export function clamp(min,_var,max) {
     }
 
 // examples
+
